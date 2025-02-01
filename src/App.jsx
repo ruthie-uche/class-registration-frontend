@@ -90,7 +90,7 @@ function App() {
         </div>
       </div>
 
-      {/* Connect Wallet button outside of the white box */}
+     
       {!account && (
         <button onClick={connectWallet} className="connect-btn">
           Connect Wallet
